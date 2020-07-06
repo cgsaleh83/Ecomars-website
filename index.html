@@ -9,26 +9,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="contact.php" method="post">
-        <div class="row space-between">
-            <div class="col-6">
-                <input type="text" class="form-control" name="" placeholder="Name">
-            </div>
-            <div class="col-6">
-                <input type="email" class="form-control" name="" placeholder="Email">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <textarea class="form-control" placeholder="Your Comment"></textarea>
-            </div>
-        </div>
-        <div class="row">
-            <div class="button text-right">
-                <a href="" target="_blank">Get In Touch</a>
-            </div>
-        </div>
-    </form>
+    <div class="contact">
+        <h1>say hellow</h1>
+        <h2>We are alwase made in a web site</h2>
+    </div>
+    <div class="contact-form">
+        <form action="contact.php" method="post" id="contact-form">
+            <input type="text" name="name" class="form-control" id="" placeholder="name" required>
+            <br>
+            <input type="text" name="name" class="form-control" id="" placeholder="name" required>
+            <br>
+            <input type="email" name="name" class="form-control" id="" placeholder="email" required>
+            <br>
+            <textarea name="massage" class="form-control" id="" cols="30" rows="4" placeholder="meassage"></textarea><br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+        </form>
+    </div>
     
 </body>
 </html>
